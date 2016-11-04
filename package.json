@@ -20,8 +20,8 @@
     "js",
     "uri"
   ],
-  "author": "Ghost Rider",
-  "license": "ISC",
+  "author": "Emerald Code",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/emerald-code/slug-generator/issues"
   },
