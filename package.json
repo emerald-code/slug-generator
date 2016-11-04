@@ -1,6 +1,6 @@
 {
   "name": "slug-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create URI slug in easy way. Supports serbian cyrilic and latin language. Based on https://github.com/simov/slugify.git module.",
   "main": "index.js",
   "scripts": {
