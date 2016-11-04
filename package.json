@@ -1,0 +1,29 @@
+{
+  "name": "slug-generator",
+  "version": "1.0.0",
+  "description": "Create URI slug in easy way. Supports serbian cyrilic and latin language",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emerald-code/slug-generator.git"
+  },
+  "keywords": [
+    "slug",
+    "slugify",
+    "url",
+    "generator",
+    "expressjs",
+    "nodejs",
+    "js",
+    "uri"
+  ],
+  "author": "Ghost Rider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emerald-code/slug-generator/issues"
+  },
+  "homepage": "https://github.com/emerald-code/slug-generator#readme"
+}
