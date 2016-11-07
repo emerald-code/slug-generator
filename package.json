@@ -1,7 +1,7 @@
 {
   "name": "slug-generator",
-  "version": "1.0.2",
-  "description": "Create URI slug in easy way. Supports serbian cyrilic and latin language. Based on https://github.com/simov/slugify.git module.",
+  "version": "1.0.3",
+  "description": "Create URI slug in easy way. Supports serbian cyrilic and latin language. This is vanilla javascript port of node-slug(https://github.com/dodo/node-slug) so all credits goes to dodo(https://github.com/dodo) and simov(https://github.com/simov).",
   "main": "index.js",
   "scripts": {
     "test": "test"

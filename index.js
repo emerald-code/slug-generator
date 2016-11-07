@@ -63,6 +63,8 @@ var map = {
 }
 
 exports = module.exports = function (string, replacement) {
+  string = string.toLowerCase();
+  
   return string.split('').reduce(function (result, char) {
     if (map[char]) {
       char = map[char]
@@ -77,6 +79,5 @@ exports = module.exports = function (string, replacement) {
     // convert spaces
     .replace(/[-\s]+/g, replacement || '-')
     // remove trailing separator
-    .replace('#{replacement}$', '')
-    .toLowerCase()
+    .replace('#{replacement}$', '')    
 }
