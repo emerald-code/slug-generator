@@ -1,8 +1,6 @@
 
 # slug-generator
 
-[![npm-version]][npm] [![travis-ci]][travis] [![coveralls-status]][coveralls]
-
 This is vanilla javascript port of [node-slug](https://github.com/dodo/node-slug) so all credits goes to [dodo](https://github.com/dodo) and [simov](https://github.com/simov/slugify.git).
 
 This script convert cyrilic to latin URI slug. 
