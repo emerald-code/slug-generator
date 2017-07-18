@@ -72,9 +72,9 @@ exports = module.exports = function (string, replacement, dot) {
         // allowed
         //char = char.replace(/[^\w\s$\*_\+~\.\(\)'"!\-:@]/g, '')
         if(typeof dot !== 'undefined') {
-            char = char.replace(/[^\w\s$\.]/g, '');
+            char = char.replace(/[^\w\s$\.\-]/g, '');
         } else {
-            char = char.replace(/[^\w\s$]/g, '');
+            char = char.replace(/[^\w\s$\-]/g, '');
         }
 
         result += char
