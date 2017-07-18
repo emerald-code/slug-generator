@@ -46,6 +46,7 @@ var map = {
     'з': 'z', 'и': 'i', 'ј': 'j', 'к': 'k', 'л': 'l', 'љ': 'lj', 'м': 'm', 'н': 'n',
     'њ': 'nj', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'ћ': 'c', 'у': 'u',
     'ф': 'f', 'х': 'h', 'ц': 'c', 'ч': 'c', 'џ': 'dz', 'ш': 's',
+    '-'
     // currency
   /*'€': 'euro', '₢': 'cruzeiro', '₣': 'french franc', '£': 'pound',
    '₤': 'lira', '₥': 'mill', '₦': 'naira', '₧': 'peseta', '₨': 'rupee',
@@ -71,10 +72,13 @@ exports = module.exports = function (string, replacement, dot) {
         }
         // allowed
         //char = char.replace(/[^\w\s$\*_\+~\.\(\)'"!\-:@]/g, '')
-        if(typeof dot !== 'undefined') {
-            char = char.replace(/[^\w\s$\.\-]/g, '');
+        if(typeof dot !== 'undefined') {            
+            char = char.replace(/[^\w\s$\-\.]/g, '');
+
         } else {
+            console.log("1:" + char);
             char = char.replace(/[^\w\s$\-]/g, '');
+            console.log("2:" + char);
         }
 
         result += char
