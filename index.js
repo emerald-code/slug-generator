@@ -75,10 +75,8 @@ exports = module.exports = function (string, replacement, dot) {
         if(typeof dot !== 'undefined') {            
             char = char.replace(/[^\w\s$\-\.]/g, '');
 
-        } else {
-            console.log("1:" + char);
-            char = char.replace(/[^\w\s$\-]/g, '');
-            console.log("2:" + char);
+        } else {            
+            char = char.replace(/[^\w\s$\-]/g, '');            
         }
 
         result += char
